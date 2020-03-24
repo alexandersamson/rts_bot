@@ -1,0 +1,110 @@
+{
+  "messages": {
+    "cannotFindEmbed": "I'm unable to find the requested embed :-(",
+    "notEnoughAccess": "You don't have enough permission to request this embed :-("
+  },
+  "content": [
+    {
+      "name": "welcome-page",
+      "description": "The welcome page message",
+      "access": [
+        "administrator",
+        "owner"
+      ]
+    },
+    {
+      "name": "info-botting",
+      "description": "Information about botting on RTS",
+      "access": [
+        "administrator",
+        "owner"
+      ]
+    },
+    {
+      "name": "info-staff",
+      "description": "Information about the staff",
+      "access": [
+        "administrator",
+        "owner"
+      ]
+    },
+    {
+      "name": "info-about",
+      "description": "Information about this bot",
+      "access": [
+        "everyone"
+      ]
+    }
+  ],
+  "embeds": {
+    "welcome-page": {
+      "description": "Hi! Welcome to the **RTS Public Discord** server.\n\n:ballot_box_with_check: Talk about games, politics, society, geeky stuff, or just chill.\n:ballot_box_with_check: You can make use of the talking rooms anytime you want.\n:ballot_box_with_check: On this server it is possible to stream 1080p @ 60fps.\n:ballot_box_with_check: Giveaways, live stream pings and awesome self-roles.\n\nAdmins @Jfrank\nModerators @tobyonekenoby, @DJBobby✓ᵛᵉʳᶦᶠᶦᵉᵈ\nBoosters @asamson, @tobyonekenoby(mod pay) and @Jfrank\n\n:earth_africa: Visit the community website @ http://rts.gm7.nl/\n\n**Some simple rules**\n\n:scroll: 1 - No racism, fascism, nazism, sexism, or any -ism like these.\n:scroll: 2 - No spamming or excessive link sharing.\n:scroll: 3 - Be respectful and helpful towards each other.\n:scroll: 4 - Use English language in the Text- and Voice Channels.\n:scroll: 5 - Use bot commands only in the *Botting* channels.\n\n**⇒ Please react with :white_check_mark: if you agree and want full access to RTS**",
+      "thumbnail": {
+        "url": "https://www.gm7.nl/wp-content/uploads/2020/03/Spinner.gif"
+      },
+      "color": 14165544
+    },
+    "info-botting": {
+      "fields": [
+        {
+          "name": "Bot",
+          "value": "RTS\nDyno\nCarl\nMEE6\nUpBeat\nWelcomer\nSanta Wumpus",
+          "inline": true
+        },
+        {
+          "name": "Type",
+          "value": "Admin Gatekeeper\nAdmin / Fun\nTexts / back-up\nFeeds / back-up\nRadio\nMessaging\nGiveaways",
+          "inline": true
+        },
+        {
+          "name": "Prefix",
+          "value": "r.\nd.\nc.\n! \n!\nnone\n*",
+          "inline": true
+        },
+        {
+          "name": "Further information",
+          "value": "The use of bots for non-staff members is only allowed within the BOTTING category text channels. There are some exceptions, like for the suggestions channel. Exceptions are always displayed in the channel where you want to use bot commands, if there are any. Admin, mod and bot abuse is prevented by the RTS administrative gatekeeper on this server.",
+          "inline": false
+        }
+      ],
+      "title": "Botting Information",
+      "description": "On this server we make use of different bots. In the list below you can see their names, purposes and their prefixes.\n",
+      "color": 14165544
+    },
+    "info-staff": {
+      "fields": [
+        {
+          "name": "Member",
+          "value": "asamson\nJfrank\ntobyonekenoby\nDJBobby✓ᵛᵉʳᶦᶠᶦᵉᵈ\n",
+          "inline": true
+        },
+        {
+          "name": "Role",
+          "value": "Server owner\nSen. Administrator\nModerator\nJun. Moderator\n",
+          "inline": true
+        },
+        {
+          "name": "UID",
+          "value": "505870659306389524\n525038402832302092\n548956680235515925\n456601190671843328\n",
+          "inline": true
+        }
+      ],
+      "title": "RTS Staff Members",
+      "description": "",
+      "color": 14165544
+    },
+    "info-about": {
+      "author": {
+        "name": "By A. samson",
+        "url": "https://discord.gg/UhAQa76",
+        "icon_url": "https://www.gm7.nl/wp-content/uploads/2020/03/Spinner.gif"
+      },
+      "title": "RTS Discord bot - V0.5.1",
+      "description": "Administrative Gatekeeper\n\n Prefix: **r.**",
+      "color": 14165544,
+      "thumbnail": {
+        "url": "https://www.gm7.nl/wp-content/uploads/2020/03/Spinner.gif"
+      }
+    }
+  }
+}

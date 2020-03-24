@@ -1,0 +1,10 @@
+name RTS Discord Bot
+prefix r.
+version 0.5.1
+author A. Samson
+description Administrative gatekeeper
+server 685823562065379377
+inviteUrl https://discord.gg/UhAQa76
+logo https://www.gm7.nl/wp-content/uploads/2020/03/Spinner.gif
+color #d82628
+nonBreakingErrorMessage \n>>> Error occurred, but bot is still up and running!

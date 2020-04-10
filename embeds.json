@@ -13,7 +13,7 @@
       ]
     },
     {
-      "name": "info-botting",
+      "name": "botting",
       "description": "Information about botting on RTS",
       "access": [
         "administrator",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "name": "info-staff",
+      "name": "staff",
       "description": "Information about the staff",
       "access": [
         "administrator",
@@ -29,22 +29,29 @@
       ]
     },
     {
-      "name": "info-about",
+      "name": "about",
       "description": "Information about this bot",
       "access": [
-        "everyone"
+        "everyone","verified"
+      ]
+    },
+    {
+      "name": "ad",
+      "description": "The RTS Advertisement",
+      "access": [
+        "everyone","verified"
       ]
     }
   ],
   "embeds": {
     "welcome-page": {
-      "description": "Hi! Welcome to the **RTS Public Discord** server.\n\n:ballot_box_with_check: Talk about games, politics, society, geeky stuff, or just chill.\n:ballot_box_with_check: You can make use of the talking rooms anytime you want.\n:ballot_box_with_check: On this server it is possible to stream 1080p @ 60fps.\n:ballot_box_with_check: Giveaways, live stream pings and awesome self-roles.\n\nAdmins @Jfrank\nModerators @tobyonekenoby, @DJBobby✓ᵛᵉʳᶦᶠᶦᵉᵈ\nBoosters @asamson, @tobyonekenoby(mod pay) and @Jfrank\n\n:earth_africa: Visit the community website @ http://rts.gm7.nl/\n\n**Some simple rules**\n\n:scroll: 1 - No racism, fascism, nazism, sexism, or any -ism like these.\n:scroll: 2 - No spamming or excessive link sharing.\n:scroll: 3 - Be respectful and helpful towards each other.\n:scroll: 4 - Use English language in the Text- and Voice Channels.\n:scroll: 5 - Use bot commands only in the *Botting* channels.\n\n**⇒ Please react with :white_check_mark: if you agree and want full access to RTS**",
+      "description": "Hi! Welcome to **Real Time Socialists**.\n\n:ballot_box_with_check: Talk about games, politics, society, geeky stuff, or just chill.\n:ballot_box_with_check: You can make use of the talking rooms anytime you want.\n:ballot_box_with_check: On this server it is possible to stream 1080p @ 60fps.\n:ballot_box_with_check: Giveaways, live stream pings and awesome self-roles.\n:ballot_box_with_check: Free self-promotion in the advertisement channel.\n\nAdmins @Jfrank\nModerators @tobyonekenoby, @DJBobby✓ᵛᵉʳᶦᶠᶦᵉᵈ\nBoosters @asamson, @tobyonekenoby(mod pay) and @Jfrank\n\n:earth_africa: Visit the community website @ http://rts.gm7.nl/\n\n**Some simple rules**\n\n:scroll: 1 - No racism, fascism, nazism, sexism, or any -ism like these.\n:scroll: 2 - No spamming or excessive link sharing.\n:scroll: 3 - Be respectful and helpful towards each other.\n:scroll: 4 - Use English language in the Text- and Voice Channels.\n:scroll: 5 - Use bot commands only in the *Botting* channels.\n\n**⇒ Please react with :white_check_mark: if you agree and want full access to RTS**",
       "thumbnail": {
         "url": "https://www.gm7.nl/wp-content/uploads/2020/03/Spinner.gif"
       },
       "color": 14165544
     },
-    "info-botting": {
+    "botting": {
       "fields": [
         {
           "name": "Bot",
@@ -71,21 +78,21 @@
       "description": "On this server we make use of different bots. In the list below you can see their names, purposes and their prefixes.\n",
       "color": 14165544
     },
-    "info-staff": {
+    "staff": {
       "fields": [
         {
           "name": "Member",
-          "value": "asamson\nJfrank\ntobyonekenoby\nDJBobby✓ᵛᵉʳᶦᶠᶦᵉᵈ\n",
+          "value": "asamson\nJfrank\ntobyonekenoby\nDJBobby✓ᵛᵉʳᶦᶠᶦᵉᵈ\nLG | SPAGHETTI™ ❤\n",
           "inline": true
         },
         {
           "name": "Role",
-          "value": "Server owner\nSen. Administrator\nModerator\nJun. Moderator\n",
+          "value": "Server owner\nSen. Administrator\nModerator\nModerator\nModerator\n",
           "inline": true
         },
         {
           "name": "UID",
-          "value": "505870659306389524\n525038402832302092\n548956680235515925\n456601190671843328\n",
+          "value": "505870659306389524\n525038402832302092\n548956680235515925\n456601190671843328\n640481659463925760\n",
           "inline": true
         }
       ],
@@ -93,7 +100,7 @@
       "description": "",
       "color": 14165544
     },
-    "info-about": {
+    "about": {
       "author": {
         "name": "By A. samson",
         "url": "https://discord.gg/UhAQa76",
@@ -101,6 +108,14 @@
       },
       "title": "RTS Discord bot - V0.5.1",
       "description": "Administrative Gatekeeper\n\n Prefix: **r.**",
+      "color": 14165544,
+      "thumbnail": {
+        "url": "https://www.gm7.nl/wp-content/uploads/2020/03/Spinner.gif"
+      }
+    },
+    "ad": {
+      "title": "The RTS discord ad - Free to use and post everywhere!",
+      "description": "**Real Time Socialists** | Level 2 Server\n➣ Left leaning community server for **RTS gamers**\n➣ Active and engaged server staff\n➣ Live streaming in 1080P @ 60FPS\n➣ A lot of high-bitrate voice channels\n➣ Free nitro classic giveaways\n➣ Free advertising and partnerships\n\nhttps://discord.gg/UhAQa76",
       "color": 14165544,
       "thumbnail": {
         "url": "https://www.gm7.nl/wp-content/uploads/2020/03/Spinner.gif"
